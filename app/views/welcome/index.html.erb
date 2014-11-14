@@ -1,0 +1,14 @@
+<h1>Travel Site</h1>
+<p>This is Jaime's amazing travel site. Hold onto your seats. Here are a list of the countries I'd like to visit.</p>
+
+<ul>
+	<% @destinations.each do |destination| %>
+		<li><%= destination.city %>, <%= destination.country %></li>
+	<% end %>
+</ul>
+
+
+<%= image_tag "peru.jpg", alt: "Machu Picchu" %>
+<%= image_tag "peru2.jpg", alt: "Peru2" %>
+<%= image_tag "peru3.jpg", alt: "Peru3" %>
+<%= image_tag "peru4.jpg", alt: "Peru4" %>
